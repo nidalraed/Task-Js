@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var num1 = parseFloat(prompt("Enter the first number:"));
+var num2 = parseFloat(prompt("Enter the second number:"));
+    if (!isNaN(num1) && !isNaN(num2)) {
+        if (num1 > num2) {
+            console.log("The large number : " + num1);
+        } else if (num2 > num1) {
+            console.log("The large number : " + num2);
+        } else {
+            console.log("Both numbers are equal: " + num1);
+        }
+    } else {
+        console.log("Please enter valid numbers.");
+    }
+
+</script>
+</body>
+</html>
