@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <script>
+let userInput = prompt("Please enter an integer:");
+let number = parseInt(userInput);
+
+if (!isNaN(number) && Number.isInteger(number) && number >= 0) {
+  let sum = 0;
+
+  for (let i = 0; i <= number; i++) {
+    sum += i;
+  }
+
+  alert("The sum of integers from 0 to " + number + " is: " + sum);
+} else {
+  alert("Invalid input. Please enter a non-negative integer.");
+}
+
+
+
+    </script>
+</body>
+</html>
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <script>
+let n;
+let isValid = false;
+
+while (!isValid) {
+  n = prompt("Please enter a number between 0 and 100:");
+
+
+  if (n === null) {
+
+    break;
+  } else {
+
+    const number = parseInt(n);
+
+
+    if (!isNaN(number) && number >= 0 && number <= 100) {
+      isValid = true;
+      alert("You entered a valid number: " + number);
+    } else {
+      alert("Invalid input.is not a number  ");
+    }
+  }
+}
+
+
+
+    </script>
+</body>
+</html>
+  
